@@ -1,0 +1,15 @@
+# custom IntelliJ IDEA VM options
+
+-Xms1024m
+-Xmx1536m
+-XX:ReservedCodeCacheSize=512m
+-XX:+UseConcMarkSweepGC
+-XX:ConcGCThreads=4
+-XX:SoftRefLRUPolicyMSPerMB=50
+-ea
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-OmitStackTraceInFastThrow
+-Duser.name=shadowyy
+-Dfile.encoding=utf-8
