@@ -5,7 +5,5 @@
  * @version ${DATE} ${TIME} 
  */
 public interface ${NAME} {
-    String field;
     
-    void method();
 }

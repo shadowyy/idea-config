@@ -5,7 +5,5 @@
  * @version ${DATE} ${TIME} 
  */
 public class ${NAME} {
-    public void method(){
-        
-    }
+    
 }
