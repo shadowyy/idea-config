@@ -12,18 +12,18 @@ public class ${uppername}ServiceImpl implements I${uppername}Service {
     private static final Logger LOGGER = LoggerFactory.getLogger(${uppername}ServiceImpl.class);
 
     @Resource
-    ${uppername}Mapper ${NAME}Mapper;
+    private ${uppername}Mapper ${NAME}Mapper;
 
-    public int deleteByPrimaryKey(Integer id){
-        return ${NAME}Mapper.deleteByPrimaryKey(id);
+    public boolean deleteByPrimaryKey(Integer id){
+        return ${NAME}Mapper.deleteByPrimaryKey(id) == 1;
     }
     
-    public int updateByPrimaryKeySelective($uppername $NAME){
-        return ${NAME}Mapper.updateByPrimaryKeySelective($NAME);
+    public boolean updateByPrimaryKeySelective($uppername $NAME){
+        return ${NAME}Mapper.updateByPrimaryKeySelective($NAME) == 1;
     }
     
-    public int insertSelective($uppername $NAME){
-        return ${NAME}Mapper.insertSelective($NAME);
+    public boolean insertSelective($uppername $NAME){
+        return ${NAME}Mapper.insertSelective($NAME) == 1;
     }
     
     public List<$uppername> querySelective($uppername $NAME){

@@ -18,19 +18,19 @@ public class ${uppername}Controller {
 
     @RequestMapping(value = "/deleteByPrimaryKey")
     @ResponseBody
-    public int deleteByPrimaryKey(Integer id){
+    public boolean deleteByPrimaryKey(Integer id){
         return ${NAME}ServiceImpl.deleteByPrimaryKey(id);
     }
     
     @RequestMapping(value = "/updateByPrimaryKeySelective")
     @ResponseBody
-    public int updateByPrimaryKeySelective(@RequestBody $uppername $NAME){
+    public boolean updateByPrimaryKeySelective(@RequestBody $uppername $NAME){
         return ${NAME}ServiceImpl.updateByPrimaryKeySelective($NAME);
     }
     
     @RequestMapping(value = "/insertSelective")
     @ResponseBody
-    public int insertSelective(@RequestBody $uppername $NAME){
+    public boolean insertSelective(@RequestBody $uppername $NAME){
         return ${NAME}ServiceImpl.insertSelective($NAME);
     }
     

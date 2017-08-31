@@ -6,11 +6,11 @@ import java.util.List;
 
 #parse("File Header.java")
 public interface I${uppername}Service {
-  int deleteByPrimaryKey(Integer integer);
+  boolean deleteByPrimaryKey(Integer integer);
 
-  int updateByPrimaryKeySelective($uppername $NAME);
+  boolean updateByPrimaryKeySelective($uppername $NAME);
 
-  int insertSelective($uppername $NAME);
+  boolean insertSelective($uppername $NAME);
 
   List<$uppername> querySelective($uppername $NAME);
 }
