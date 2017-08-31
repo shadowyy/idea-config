@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.List;
 
+import static org.springframework.web.bind.annotation.RequestMethod.GET;
+import static org.springframework.web.bind.annotation.RequestMethod.POST;
+
 #parse("File Header.java")
 @RestController
 @RequestMapping("/$NAME")
@@ -15,22 +18,22 @@ public class ${uppername}Controller {
     @Resource
     private I${uppername}Service ${NAME}ServiceImpl;
 
-    @RequestMapping(value = "/deleteByPrimaryKey")
-    public int deleteByPrimaryKey(Integer id){
+    @RequestMapping(value = "/deleteByPrimaryKey", method = GET)
+    public boolean deleteByPrimaryKey(Integer id){
         return ${NAME}ServiceImpl.deleteByPrimaryKey(id);
     }
     
-    @RequestMapping(value = "/updateByPrimaryKeySelective")
-    public int updateByPrimaryKeySelective(@RequestBody $uppername $NAME){
+    @RequestMapping(value = "/updateByPrimaryKeySelective", method = POST)
+    public boolean updateByPrimaryKeySelective(@RequestBody $uppername $NAME){
         return ${NAME}ServiceImpl.updateByPrimaryKeySelective($NAME);
     }
     
-    @RequestMapping(value = "/insertSelective")
-    public int insertSelective(@RequestBody $uppername $NAME){
+    @RequestMapping(value = "/insertSelective", method = POST)
+    public boolean insertSelective(@RequestBody $uppername $NAME){
         return ${NAME}ServiceImpl.insertSelective($NAME);
     }
     
-    @RequestMapping(value = "/querySelective")
+    @RequestMapping(value = "/querySelective", method = POST)
     public List<$uppername> querySelective(@RequestBody $uppername $NAME){
         return ${NAME}ServiceImpl.querySelective($NAME);
     }
