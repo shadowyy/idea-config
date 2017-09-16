@@ -27,4 +27,11 @@
       <option name="SQL" value="true" />
     </context>
   </template>
+  <template name="alr" value="ALTER TABLE $table$ RENAME COLUMN $column$ TO $END$" description="oracleÐÞ¸Ä×Ö¶ÎÃû" toReformat="false" toShortenFQNames="true">
+    <variable name="table" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
 </templateSet>
