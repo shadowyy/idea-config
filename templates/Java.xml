@@ -10,6 +10,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="nhm" value="Map&lt;String,Object&gt; map = new HashMap&lt;String,Object&gt;();" description="new HashMap" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
   <template name="field" value="$ACCESS$ $TYPE$ $CLASS$ $NAME$;$END$" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="ACCESS" expression="enum(public,protected,private)" defaultValue="public" alwaysStopAt="true" />
     <variable name="TYPE" expression="enum(...)" defaultValue="final" alwaysStopAt="true" />
