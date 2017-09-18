@@ -1,0 +1,5 @@
+<application>
+  <component name="ArchetypeCatalogSettings">
+    <archetype-catalog>http://localhost:8081/nexus/content/groups/public/archetype-catalog.xml</archetype-catalog>
+  </component>
+</application>
