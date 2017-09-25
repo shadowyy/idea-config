@@ -36,4 +36,9 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="psvt" value="private static void test0() throws Exception {&#10;    &#10;}" description="test method" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
