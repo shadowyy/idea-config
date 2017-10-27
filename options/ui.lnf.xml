@@ -1,8 +1,6 @@
 <application>
   <component name="UISettings">
     <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
-    <option name="DISABLE_MNEMONICS" value="true" />
-    <option name="DISABLE_MNEMONICS_IN_CONTROLS" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="15" />
     <option name="FONT_FACE" value="Microsoft Yahei UI" />
     <option name="FONT_SCALE" value="1.5" />

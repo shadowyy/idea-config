@@ -71,19 +71,25 @@
       <path value="MainToolBarSettings" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Git.Pull" is_action="true" action_type="1" position="2">
+    <group value="Git.Fetch" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="MainToolBarSettings" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Vcs.Push" is_action="true" action_type="1" position="3">
+    <group value="Git.Pull" is_action="true" action_type="1" position="3">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="MainToolBarSettings" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group seperator="true" action_type="1" position="4">
+    <group value="Vcs.Push" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="MainToolBarSettings" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group seperator="true" action_type="1" position="5">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="MainToolBarSettings" />
@@ -95,5 +101,6 @@
       <option name="myInitialPosition" value="-1" />
     </group>
     <action id="RevealIn" />
+    <action id="Git.Fetch" />
   </component>
 </application>
