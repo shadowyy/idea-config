@@ -21,6 +21,8 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="EditorCodeBlockEndWithSelection" />
+  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorContextInfo" />
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f12" />
@@ -49,8 +51,14 @@
     <keyboard-shortcut first-keystroke="f12" />
   </action>
   <action id="JumpToLastChange" />
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
   <action id="OpenModuleSettings">
     <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="PreviousProjectWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
   </action>
   <action id="RecentChangedFiles" />
   <action id="RecentFiles">
