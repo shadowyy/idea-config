@@ -2,7 +2,6 @@ CVS
 ClearcasePlugin
 CloudBees
 CloudFoundry
-Coverage
 Emma
 Geronimo
 GlassFish
