@@ -104,4 +104,7 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
+  </action>
 </keymap>
