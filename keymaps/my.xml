@@ -15,6 +15,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
   <action id="DatabaseView.CopyDdlAction" />
+  <action id="DuplicatesForm.SendToLeft" />
   <action id="ECTranslation">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
@@ -24,15 +25,24 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorContextInfo" />
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="ExternalSystem.OpenConfig">
     <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="FileChooser.GotoHome" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="FindBugs.PreviewSelectBugInstance">
     <mouse-shortcut keystroke="alt button1" />
   </action>
+  <action id="FindBugs.ShowQuickSearch" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="GotoBookmark1" />
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
@@ -51,6 +61,7 @@
     <keyboard-shortcut first-keystroke="f12" />
   </action>
   <action id="JumpToLastChange" />
+  <action id="MethodHierarchy" />
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
   </action>
@@ -66,6 +77,9 @@
   </action>
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="ShowByteCodeJclasslib">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
