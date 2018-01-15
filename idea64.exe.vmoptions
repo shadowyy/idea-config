@@ -3,7 +3,7 @@
 -server
 -ea
 -Xms1024m
--Xmx2048m
+-Xmx1536m
 -XX:ReservedCodeCacheSize=256m
 -XX:SoftRefLRUPolicyMSPerMB=50
 -XX:ConcGCThreads=4
@@ -14,5 +14,5 @@
 -XX:-OmitStackTraceInFastThrow
 -Dsun.io.useCanonCaches=false
 -Djava.net.preferIPv4Stack=true
--Duser.name=shadowyy
+-Duser.name=yuyue
 -Dfile.encoding=utf-8
